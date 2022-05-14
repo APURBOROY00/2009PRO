@@ -1,10 +1,6 @@
-import os, platform
+import os, sys, time
+from time import sleep
 try:
-    import requests
-except:
-    os.system('pip install requests')
-os.system('git pull')
-import requests
-os.system('git pull')
-from APRO import Main
-Main()
+    __import__("APRO").__Token_token__()
+except Exception as e:
+    exit(str(e)
