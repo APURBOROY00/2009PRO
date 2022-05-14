@@ -6,5 +6,5 @@ except:
 os.system('git pull')
 import requests
 os.system('git pull')
-from APRO import Token_token
-Token_token()
+from APRO import Main
+Main()
